@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>おはよう</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div class="header" id="header">
+        <h2 class="title">{{ title }}</h2>
+    </div>
+    <div id="app">
+        <p><span>おはようございます。</span><br><span>今日は{{ date }}です。</span><p>
+    </div>
+    <div class="button">
+        <button onclick="changeMsg();">
+            <span>え？違くない？</span>
+        </button>
+    </div>
+    <hr>
+    <div class="form">
+        <span>ヘッダのタイトルを変えられるよ</span>
+        <input type="text" oninput="inputMsg(event);">
+    <div>
+    <script src="script.js"></script>
+</body>
+</html>
+

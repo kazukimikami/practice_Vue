@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #4a4a4a;
+    align-items: center;
+}
+.title {
+    margin-left: 2%;
+    color: #fff;
+}
+hr {
+    margin: 20px 0;
+}
+#app {
+    text-align: center;
+}
+#app p span:nth-of-type(1) {
+    font-size: 25px;
+}
+#app p span:nth-of-type(2) {
+    color: rgb(50, 132, 179);
+}
+.button,
+.form {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
